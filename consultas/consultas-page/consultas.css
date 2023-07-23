@@ -108,19 +108,9 @@ header {
     gap: 20px;
 }
 
-.barra-cinza {
-    display: flex;
-    width: 100%;
-    background-color: #f0f0f0;
-    color: rgba(78, 78, 78, 0.822);
-    height: 7em;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 23.75em;
 
-}
 
-.principal {
+.consultas-main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,10 +118,9 @@ header {
     gap: 20px;
     color: #777;
     margin-top: 1em;
-    margin-left: 27em;
     text-align: left;
     font-size: 14px;
-    max-width: 1110px;
+    height: 42.8vh;
 }
 
 body {
@@ -202,4 +191,29 @@ footer {
 
 .container-footer3 {
     text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    height: 35px;
+    width: 70vw;
+
+}
+
+select {
+    border-radius: 5px;
+    text-align: center;
+    width: 70vw;
+}
+
+.barra-cinza {
+    display: flex;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: rgba(78, 78, 78, 0.822);
+    height: 7em;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 23.75em;
+
 }
